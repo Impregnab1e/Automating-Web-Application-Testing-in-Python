@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-with open(r"E:\Учеба\Учусь\Automating Web Application Testing in Python\Sem2_Selenium\testdata.yaml") as f:
+with open(r"E:\Учеба\Учусь\Automating Web Application Testing in Python\Sem3\testdata.yaml") as f:
     testdata = yaml.safe_load(f)
     browser = testdata["browser"]
 

@@ -1,0 +1,19 @@
+xpath:
+    LOCATOR_LOGIN_FIELD: //*[@id="login"]/div[1]/label/input
+    LOCATOR_PASS_FIELD: //*[@id="login"]/div[2]/label/input
+    LOCATOR_LOGIN_BTN: //*[@id="login"]/div[3]/button
+    LOCATOR_ERROR_FIELD: //*[@id="app"]/main/div/div/div[2]/h2
+    LOCATOR_RESULT_LOGIN: //*[@id="app"]/main/div/div[1]/h1
+    LOCATOR_CREATE_NEW_POST: //*[@id="create-btn"]
+    LOCATOR_POST_TITLE: //*[@id="create-item"]/div/div/div[1]/div/label/input
+    LOCATOR_POST_CONTENT: //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+    LOCATOR_CREATE_POST_BTN: //*[@id="create-item"]/div/div/div[7]/div/button
+    LOCATOR_POST: //*[@id="app"]/main/div/div[1]/h1
+    LOCATOR_CONTACT_BUTTON: //*[@id="app"]/main/nav/ul/li[2]/a
+    LOCATOR_NAME_FIELD: //*[@id="contact"]/div[1]/label/input
+    LOCATOR_EMAIL_FIELD: //*[@id="contact"]/div[2]/label/input
+    LOCATOR_CONTENT_FIELD: //*[@id="contact"]/div[3]/label/span/textarea
+    LOCATOR_SUBMIT_BUTTON: //*[@id="contact"]/div[4]/button/span
+    LOCATOR_POST_TITLE_LINK: "//*[@id='app']/main/div/div[3]/div[1]/a[1]/h2" #test5
+    LOCATOR_POST_TITLE_H1: "//*[@id='app']/main/div/div[1]/h1" #test5
+css:

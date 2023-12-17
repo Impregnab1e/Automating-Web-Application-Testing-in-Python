@@ -1,0 +1,7 @@
+address: https://test-stand.gb.ru/
+browser: chrome
+sleep_time: 3
+login: "Sixth Sense"
+password: "81c597107f"
+
+url: "https://speller.yandex.net/services/spellservice?WSDL" #test5
