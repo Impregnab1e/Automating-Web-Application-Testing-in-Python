@@ -47,7 +47,7 @@ def test_step3(browser):
     assert testpage.post() == "new title"
 
 
-def test_step4(browser, send_email):
+def test_step4(browser):
     logging.info("Test4 starting")
     testpage = OperationsHelper(browser, testdata['address'])
     testpage.go_to_site()
@@ -63,7 +63,7 @@ def test_step4(browser, send_email):
     assert alert_text == expected_text, f"Текст алерта не совпадает. Ожидаемый: {expected_text}, Фактический: {alert_text}"
 
 
-def test_step5(browser, good_word, bad_word):
+def test_step5(browser, good_word, bad_word, send_email):
     logging.info("Test5 starting")
     testpage = OperationsHelper(browser, testdata['address'])
     testpage.go_to_site()
